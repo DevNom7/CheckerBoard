@@ -7,6 +7,7 @@ This project implements a simple checkerboard in C++, utilizing nested loops and
 - Prints an 8x8 checkerboard to the console.
 - Alternates between black and red squares using the modulus operator.
 - Allows easy customization of the checkerboard size and colors.
+  
 
 ## How It Works
 
@@ -15,13 +16,6 @@ The program uses nested loops:
 - The inner loop iterates over the columns of each row.
 - A conditional statement with the modulus operator (`%`) determines whether to print a black or red square based on the row and column numbers.
 
-Example output:
+## IDE
+Built-in Xcode
 
-B R B R B R B R
-R B R B R B R B
-B R B R B R B R
-R B R B R B R B
-B R B R B R B R
-R B R B R B R B
-B R B R B R B R
-R B R B R B R B
